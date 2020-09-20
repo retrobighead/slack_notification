@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-DRIVER_PATH = "/usr/local/bin/chromedriver" # local
+# DRIVER_PATH = "/usr/local/bin/chromedriver" # local
+DRIVER_PATH = '/app/.chromedriver/bin/chromedriver' # heroku
 QIITA_BASE_URL = "https://qiita.com/"
 
 SLACK_WEBHOOK_ENDPOINT = "https://hooks.slack.com/services/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"
